@@ -1,0 +1,32 @@
+{
+  "name": "musicsheet",
+  "private": true,
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "next": "^15.3.3",
+    "pdfjs-dist": "^5.4.296",
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0",
+    "react-pdf": "^10.3.0",
+    "tailwindcss": "^4.1.18",
+    "@tailwindcss/postcss": "^4.1.18",
+    "uuid": "^13.0.0"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.39.1",
+    "@types/node": "^24.10.13",
+    "@types/react": "^19.2.7",
+    "@types/react-dom": "^19.2.3",
+    "@types/uuid": "^10.0.0",
+    "eslint": "^9.39.1",
+    "eslint-plugin-react-hooks": "^7.0.1",
+    "typescript": "~5.9.3",
+    "typescript-eslint": "^8.48.0"
+  }
+}
